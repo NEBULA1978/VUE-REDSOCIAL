@@ -1,4 +1,5 @@
 <template>
+  <!-- Componente -->
  <NavComp />
   <!-- Navegador  rutas -->
   <nav>
