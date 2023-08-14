@@ -48,4 +48,15 @@ Proyecto de Red Social con Vue.js y Bootstrap - Aspectos Clave:
 
     Enfoque en Componentes:
         Explicación del uso de componentes en Vue.js para crear elementos reutilizables.
+<<<<<<< HEAD
         Creación de componentes para la barra de navegación y otras partes de la interfaz.
+=======
+        Creación de componentes para la barra de navegación y otras partes de la interfaz.
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
+>>>>>>> 3bc84325132dbf56a11e12358297d9d03e10f771
