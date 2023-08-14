@@ -1,34 +1,27 @@
 <template>
     <nav class="navbar navbar-expand-lg bg-primary">
         <div class="container justify-content-eventy">
-            <router-link to="/" class="navbar-brand">
-                <span class="material-icons">home</span>
-            </router-link>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+          
+           
 
 
-                <router-link to="/" class="nav-link active" aria-current="page">
+                <router-link to="/" class="nav-link" aria-current="page">
                     <span class="material-icons-round">home</span>
                 </router-link>
 
 
-                <router-link to="/about" class="nav-link active" aria-current="page">
+                <router-link to="/about" class="nav-link" aria-current="page">
                     <span class="material-icons-round">info</span>
                 </router-link>
 
 
-                <router-link to="/posts" class="nav-link active" aria-current="page">
+                <router-link to="/posts" class="nav-link" aria-current="page">
                     <span class="material-icons-round">featured_play_list</span>
                 </router-link>
 
                 <!-- ... otros elementos ... -->
 
-            </div>
+            
         </div>
     </nav>
 </template>
@@ -43,8 +36,13 @@ export default {
 .material-icons-round {
     color: white;
     font-size: 1.4em;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.162);
     padding: 0.3em;
     border-radius: 50%;
+    margin: 0.1em;
 }
+
+
 </style>
+
+<!-- Voy video2 minuto10:53 -->

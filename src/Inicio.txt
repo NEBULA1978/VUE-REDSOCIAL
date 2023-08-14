@@ -386,9 +386,66 @@ npm i material-icons
 Importamos en main.js(importar css js router stores)
 import 'material-icons/iconfont/material-icons.css'
 
+/////////////////////////////////////////
+
+CREO RAMA Y SUBO A GITHUB:
+
+crear una nueva rama llamada "video2" antes de cambiar a ella, aquí tienes los pasos:
+
+    Crear la rama video2:
+    Utiliza el comando git branch para crear una nueva rama llamada "video2". No es necesario que cambies a esta rama inmediatamente después de crearla.
+
+    bash
+
+git branch video2
+
+Esto creará la rama "video2" pero seguirás en la rama actual (main en este caso).
+
+Cambiar a la rama video2:
+Luego, puedes cambiar a la rama recién creada utilizando el comando git checkout.
+
+bash
+
+git checkout video2
+
+Ahora estarás en la rama "video2" y podrás realizar cambios y commits en esa rama.
+
+Realizar cambios y commits:
+Realiza los cambios necesarios en tu proyecto y crea commits como lo harías normalmente.
+
+Subir la rama video2 a GitHub:
+Una vez que hayas realizado tus cambios y commits en la rama video2, puedes subirla a GitHub utilizando el comando git push. Si esta es la primera vez que estás subiendo la rama, el comando podría ser similar a:
+
+bash
+
+git push -u origin video2
+
+Esto establecerá una relación de seguimiento entre tu rama local video2 y la rama remota video2 en GitHub.
+
+git push --set-upstream origin video2
+Enumerando objetos: 15, listo.
+Contando objetos: 100% (15/15), listo.
+Compresión delta usando hasta 4 hilos
+Comprimiendo objetos: 100% (7/7), listo.
+Escribiendo objetos: 100% (8/8), 975 bytes | 975.00 KiB/s, listo.
+Total 8 (delta 5), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote: 
+remote: Create a pull request for 'video2' on GitHub by visiting:
+remote:      https://github.com/NEBULA1978/VUE-REDSOCIAL/pull/new/video2
+remote: 
+To https://github.com/NEBULA1978/VUE-REDSOCIAL.git
+ * [new branch]      video2 -> video2
+Rama 'video2' configurada para hacer seguimiento a la rama remota 'video2' de 'origin'.
+
+/////////////////////////
+Pagina colores:
+https://color.adobe.com/create/color-wheel
 
 
 
+
+/////////////////////////
 
 /////////////////////////
 
