@@ -1,7 +1,4 @@
 <template>
-    <h2>POSTS PAGE</h2>
-     <div class="home">
-        <img alt="Vue logo" src="../assets/logo.png">
-        <HelloWorld msg="Welcome to Your Vue.js App"/>
-      </div>
+  <h2>Posts page</h2>
+  <a href="#" class="link-primary">Primary link</a>
 </template>
