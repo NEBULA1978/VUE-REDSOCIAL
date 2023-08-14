@@ -20,3 +20,12 @@ INgresamos el componente en App.vue:
 
  En RoutesView creamos las rutas Home About Posts y 
  para que funcione en App.vue importamos nombre componente
+
+En nav.Comp.vue:(para ver iconos)
+    <li class="nav-item">
+                        <router-link to="/" class="nav-link active" aria-current="page">
+                            <span class="material-icons">home</span>
+                        </router-link>
+
+                    </li>
+

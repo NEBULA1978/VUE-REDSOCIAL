@@ -380,5 +380,15 @@ export default router
 Iconos:
 https://fonts.google.com/icons?selected=Material+Symbols+Outlined:search:FILL@0;wght@400;GRAD@0;opsz@48
 
+Para utilizar en Home About Posts enves de texto logo.
+npm i material-icons
+
+Importamos en main.js(importar css js router stores)
+import 'material-icons/iconfont/material-icons.css'
+
+
+
+
+
 /////////////////////////
 
