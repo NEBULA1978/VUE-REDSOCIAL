@@ -12,6 +12,7 @@
 </template>
 
 <script scope>
+// Importamos componentes que queramos usar
 import NavComp from '@/components/NavComp.vue'
 export default{
   name:"App",
