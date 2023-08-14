@@ -6,6 +6,7 @@
 				{{ parrafo }}
 			</p>
 			<slot></slot>
+			<!-- Separa los botones -->
 			<div class="d-grid gap-2">
 				<button
 					v-for="btn in btns"

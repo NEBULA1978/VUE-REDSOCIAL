@@ -10,6 +10,7 @@
 				</div>
 			</div>
 			<div class="col-lg-6">
+				<!-- Igualamos btnArray a btns -->
 				<card-comp :btns="btnArray" class="mx-auto card-comp">
 					<form>
 						<div class="mb-3 mt-2">
@@ -24,6 +25,14 @@
 								class="form-control"
 								placeholder="Contraseña" />
 						</div>
+
+						<!-- Para añadir mas botones -->
+						<!-- <div class="mb-3 mt-2">
+							<input
+								type="password"
+								class="form-control"
+								placeholder="Contraseña" />
+						</div> -->
 					</form>
 				</card-comp>
 			</div>
@@ -39,7 +48,7 @@
 		components: {
 			CardComp,
 		},
-
+		// < !--ray objetos crear botones-- >
 		data() {
 			return {
 				btnArray: [
