@@ -13,10 +13,12 @@
                
               </li>
               <li class="nav-item">
-                <a class="nav-link" >About</a>
+                <router-link to="/about" class="nav-link active" aria-current="page">About</router-link>
+                
               </li>
               <li class="nav-item">
-                <a class="nav-link" >Posts</a>
+                <router-link to="/posts" class="nav-link active" aria-current="page">Posts</router-link>
+               
               </li>
 
             </ul>
