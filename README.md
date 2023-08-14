@@ -1,25 +1,54 @@
-# vite-project
+# redsocial
 
-This template should help get you started developing with Vue 3 in Vite.
+## Project Inicio
+```
+cd redsocial
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+## Project setup
+```
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-```sh
-npm run dev
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
+Resumen:
+
+Proyecto de Red Social con Vue.js y Bootstrap - Aspectos Clave:
+
+    Concepto del Proyecto: Desarrollo de una red social similar a Facebook.
+
+    Tecnologías Utilizadas:
+        Vue.js: Un framework progresivo para construir interfaces de usuario interactivas.
+        Bootstrap: Un marco de diseño que facilita la creación de interfaces web atractivas y receptivas.
+        Node.js: Un entorno de ejecución para desarrollar aplicaciones en JavaScript en el servidor.
+
+    Configuración Inicial:
+        Instalación de Node.js y Vue.js en el sistema.
+
+    Desarrollo Paso a Paso:
+        Instalación de dependencias usando Vue CLI.
+        Creación y configuración del proyecto.
+        Integración de la librería Bootstrap mediante descarga y enlace de archivos.
+        Creación de diversas páginas como Inicio, Acerca de y Publicaciones.
+        Implementación de navegación entre páginas usando "router-link".
+        Incorporación de iconos de Google para mejorar el aspecto visual.
+        Uso de componentes para la barra de navegación y la página de inicio.
+        Integración de la fuente de iconos Material Icons.
+
+    Enfoque en Componentes:
+        Explicación del uso de componentes en Vue.js para crear elementos reutilizables.
+        Creación de componentes para la barra de navegación y otras partes de la interfaz.
 ```
 
 ### Compile and Minify for Production
