@@ -57,7 +57,7 @@
 						class: 'btn-primary',
 					},
 					{
-						txt: 'Borrar',
+						txt: 'Olvidaste tu contraseña?',
 						class: 'btn-danger',
 					},
 				],
@@ -67,6 +67,11 @@
 </script>
 
 <style scoped>
+	h2{
+		max-width: 470px;
+		margin: auto;
+		font-size: 1.8rem;
+	}
 	.home {
 		max-width: 895px;
 		margin: auto;
@@ -83,7 +88,8 @@
 
 	.card-comp {
 		max-width: 398px;
-		margin-top: 2.6em;
+		/* Empujaba hacia debajo de mazebook */
+		/* margin-top: 2.6em; */
 	}
 
 	@media (min-width: 992px) {
@@ -99,5 +105,10 @@
 			margin-top: -0.8em;
 			margin-left: 0.8em;
 		}
+		.card-comp {
+		margin-top: 3rem;
+		/* Para pantalla grande */
+		
+	}
 	}
 </style>
