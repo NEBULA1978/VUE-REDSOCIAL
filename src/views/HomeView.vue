@@ -25,10 +25,30 @@
   </div>
 </template>
 
-
 <script>
 // @ is an alias to /src
+import CardComp from '../components/CardComp.vue'
+export default {
+  name: 'HomeView',
+  components: {
+    CardComp,
+  },
 
+  data() {
+    return {
+      btnArray: [
+        {
+          txt: 'Iniciar sesión',
+          class: 'btn-primary',
+        },
+        {
+          txt: 'Borrar',
+          class: 'btn-danger',
+        },
+      ],
+    }
+  },
+}
 </script>
 
 <style scoped>
@@ -67,4 +87,5 @@ img {
     margin-top: -0.8em;
     margin-left: 0.8em;
   }
-}</style>
+}
+</style>
