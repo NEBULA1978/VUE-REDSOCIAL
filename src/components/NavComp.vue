@@ -12,6 +12,12 @@
       <router-link to="/posts" class="nav-link">
         <span class="material-icons-round"> featured_play_list </span>
       </router-link>
+      <router-link to="/contacto" class="nav-link">
+        <span class="material-icons-round"> featured_play_list </span>
+      </router-link>
+      <router-link to="/cuadros" class="nav-link">
+        <span class="material-icons-round"> featured_play_list </span>
+      </router-link>
     </div>
   </nav>
 </template>
